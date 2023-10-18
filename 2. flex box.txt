@@ -1,0 +1,16 @@
+justify-content:
+
+This property is used to define how flex items are distributed along the main axis of the flex container. It controls the alignment of items horizontally.
+Possible values include: flex-start (items align to the start of the container), flex-end (items align to the end), center (items align at the center), space-between (items are evenly distributed with space between them), and more.
+align-items:
+
+This property determines how flex items are aligned along the cross-axis of the flex container. It controls the alignment of items vertically.
+Possible values include: flex-start (items align to the start of the container), flex-end (items align to the end), center (items align at the center), baseline (items align at their baselines), and stretch (items stretch to fill the container).
+flex-direction:
+
+This property specifies the direction in which the flex container's main axis will run. It defines whether items are laid out in a row or column.
+Possible values are row (default, left to right), row-reverse (right to left), column (top to bottom), and column-reverse (bottom to top).
+flex-wrap:
+
+This property determines whether flex items should wrap onto a new line if they overflow the available space in the flex container.
+Possible values include nowrap (default, no wrapping), wrap (items wrap onto a new line if needed), and wrap-reverse (items wrap in reverse order if needed).
